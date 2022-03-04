@@ -9,27 +9,3 @@ var line1 = new Typed(".typed-line1", {
     cursorChar: "_",
     attr: null,
 });
-
-// var line2 = new Typed(".typed-line2", {
-//     strings: ["> currently building <a href=\"https://www.aikido.work\">www.aikido.work</a>"],
-//     typeSpeed: 50,
-//     backSpeed: 20,
-//     backDelay: 800,
-//     startDelay: 7000,
-//     loop: false,
-//     showCursor: false,
-//     cursorChar: "_",
-//     attr: null,
-// });
-
-// var line3 = new Typed(".typed-line3", {
-//     strings: ["> follow us on <a href=\"https://www.twitter.com/lab0324\">twitter</a>"],
-//     typeSpeed: 50,
-//     backSpeed: 20,
-//     backDelay: 800,
-//     startDelay: 13000,
-//     loop: false,
-//     showCursor: false,
-//     cursorChar: "_",
-//     attr: null,
-// });
