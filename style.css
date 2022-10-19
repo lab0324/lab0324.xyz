@@ -2,68 +2,37 @@ html,
 body {
     height: 100%;
     font-family: 'DM Mono', monospace;
-    font-size: 25px;
-    line-height: 25px;
-    letter-spacing: 0px;
-    color: #FFF;
-    text-shadow: 1px 2px 4px rgba(59, 87, 106, 0.31);
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -1px;
+    color: rgb(166, 166, 166);
+    background-color: #000;
+    padding:10px;
 }
 
 video {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    width: 400px;
+    opacity: 0.9;
+    border: 2px solid rgb(166, 166, 166);;
+    border-radius:20px;
 }
 
-.logo {
+#logo {
     width: 50px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
     opacity: 1;
 }
 
-.twitter-link {
-    /* display: none; */
+#content {
+    margin-top: 20px;
 }
 
-.fade-in {
-    opacity: 1;
-    animation-name: fadeInOpacity;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 5s;
-}
-
-@keyframes fadeInOpacity {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.vertical-center {
-    min-height: 100%;
-    /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh;
-    /* These two lines are counted as one :-)       */
-    display: flex;
-    align-items: center;
-}
-
-.description {
+a {
     color: #FFF;
-    font-size: 16px;
-    margin: 0px;
 }
 
-.link {
-    text-decoration: none;
-}
-
-.jumbotron {
-    padding: 10px;
+a:hover {
+    color: aqua;
 }
