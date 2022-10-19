@@ -19,6 +19,10 @@ body {
     margin-bottom: 10px;
 }
 
+#intro {
+  margin-top:10px;
+}
+
 #logo {
     width: 50px;
     position: fixed;
