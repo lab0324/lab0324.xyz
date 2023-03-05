@@ -16,6 +16,7 @@ body {
     opacity: 0.9;
     border: 2px solid rgb(166, 166, 166);
     border-radius:20px;
+  margin-top: 100px;
     margin-bottom: 10px;
 }
 
@@ -24,13 +25,10 @@ body {
 }
 
 #logo {
-    margin-top: 100px;
-    width: 200px;
-    margin-bottom: 20px;
-
-/*     position: fixed;
+    width: 50px;
+    position: fixed;
     bottom: 20px;
-    left: 20px; */
+    left: 20px;
     opacity: 1;
 }
 
